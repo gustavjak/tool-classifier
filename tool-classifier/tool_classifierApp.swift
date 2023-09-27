@@ -11,7 +11,7 @@ import SwiftUI
 struct tool_classifierApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ViewController()
         }
     }
 }
