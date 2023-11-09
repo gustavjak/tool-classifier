@@ -14,7 +14,7 @@
 		409D18852AC4295D002290DC /* tool_classifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409D18842AC4295D002290DC /* tool_classifierTests.swift */; };
 		409D188F2AC4295D002290DC /* tool_classifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409D188E2AC4295D002290DC /* tool_classifierUITests.swift */; };
 		409D18912AC4295D002290DC /* tool_classifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409D18902AC4295D002290DC /* tool_classifierUITestsLaunchTests.swift */; };
-		409D18A12AC42BB3002290DC /* camera_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409D18A02AC42BB3002290DC /* camera_controller.swift */; };
+		471E1E282AF272EB00EE6D56 /* ToolClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 471E1E272AF272EB00EE6D56 /* ToolClassifier 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		409D188A2AC4295D002290DC /* tool-classifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tool-classifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		409D188E2AC4295D002290DC /* tool_classifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tool_classifierUITests.swift; sourceTree = "<group>"; };
 		409D18902AC4295D002290DC /* tool_classifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tool_classifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		409D18A02AC42BB3002290DC /* camera_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camera_controller.swift; sourceTree = "<group>"; };
+		471E1E272AF272EB00EE6D56 /* ToolClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ToolClassifier 1.mlmodel"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +97,7 @@
 		409D18712AC4295B002290DC /* tool-classifier */ = {
 			isa = PBXGroup;
 			children = (
-				409D189F2AC42B95002290DC /* Views */,
-				409D189E2AC42B83002290DC /* Controller */,
-				409D189D2AC42B7A002290DC /* Model */,
+				471E1E272AF272EB00EE6D56 /* ToolClassifier 1.mlmodel */,
 				409D18722AC4295B002290DC /* tool_classifierApp.swift */,
 				409D18742AC4295B002290DC /* ContentView.swift */,
 				409D18762AC4295D002290DC /* Assets.xcassets */,
@@ -132,28 +130,6 @@
 				409D18902AC4295D002290DC /* tool_classifierUITestsLaunchTests.swift */,
 			);
 			path = "tool-classifierUITests";
-			sourceTree = "<group>";
-		};
-		409D189D2AC42B7A002290DC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		409D189E2AC42B83002290DC /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				409D18A02AC42BB3002290DC /* camera_controller.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		409D189F2AC42B95002290DC /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,9 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				409D18A12AC42BB3002290DC /* camera_controller.swift in Sources */,
 				409D18752AC4295B002290DC /* ContentView.swift in Sources */,
 				409D18732AC4295B002290DC /* tool_classifierApp.swift in Sources */,
+				471E1E282AF272EB00EE6D56 /* ToolClassifier 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
